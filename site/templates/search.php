@@ -2,7 +2,7 @@
 	 $search = new search(array(
 	 'searchfield' => 'q',
 	 'mode' => 'and',
-	 'ignore' => array('error', 'docs', 'directory'),
+	 'ignore' => array('error', 'docs', 'directory', 'private', 'clients'),
 	 'paginate' => 5
 
 	 ));
