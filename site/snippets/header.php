@@ -40,7 +40,7 @@ Header Snippet - Smart Projects Kirby Theme
          <a class="logo" href="<?php echo url() ?>"></a>
 
          <form role="search" class="search" action="<?php echo url('search') ?>">
-            <label for="s">Search</label>
+            <label for="q">Search</label>
             <input type="search" class="searchword" name="q" />
          </form>
 
