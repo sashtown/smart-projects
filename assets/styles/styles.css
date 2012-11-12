@@ -1,0 +1,526 @@
+/**********************************************************************************************
+
+****** Smart Projects Kirby Theme ******
+
+*** Design Name: Smart Projects
+*** Design URI: http://smartprojects.sashtown.de
+*** Author: Sascha Lack
+*** Author URI: http://sashtown.de
+
+***********************************************************************************************/
+
+
+/* Reset
+-------------------------------------------------------------- */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	background-repeat: no-repeat;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* Icons
+-------------------------------------------------------------- */
+
+@font-face {
+	font-family: 'smart-projects';
+	src: url('../fonts/smart-projects.eot');
+	src: url('../fonts/smart-projects.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/smart-projects.woff') format('woff'),
+		url('../fonts/smart-projects.ttf') format('truetype'),
+		url('../fonts/smart-projects.svg#smart-projects') format('svg');
+}
+
+[data-icon]:before {
+	font-family: 'smart-projects';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	margin: 0 10px 0 0;
+}
+
+
+/* Site
+-------------------------------------------------------------- */
+
+html {
+	-webkit-font-smoothing: antialiased;
+	height: 101%;
+}
+body {
+	color: #111;
+	border: 20px solid #333;
+	background: #fff;
+   min-height: 101%;
+	font-size: 17px;
+	font-family: 'PT Sans', sans-serif;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 50px;
+}
+.content {
+   margin: 50px 0 0;
+   width: 100%;
+}
+
+
+/* Header
+-------------------------------------------------------------- */
+
+.branding {
+	position: relative;
+}
+.logo {
+	float: left;
+	width: 400px;
+	height: 100px;
+	max-width: 100%;
+	background-image: url(../images/logo.png);
+	background-size: 100%;
+}
+.subheader {
+   padding: 50px 0 20px;   
+   border-bottom: 1px dashed #333;   
+}
+.count {
+	float: right;
+	margin: 0 0 10px;
+	padding: 10px 15px;
+	color: #ddd;
+	display: inline-block;
+	background: #333;
+	line-height: 22px;
+	width: 300px;
+	font-size: 16px;
+	text-align: center;
+	border-bottom: 5px solid #aaa;
+}
+.count strong {
+	color: #fff;
+}
+
+
+/* Dashboard Teaser
+-------------------------------------------------------------- */
+.hello {
+	margin: 50px 0;
+	padding: 20px 20px 10px 20px;
+	background: #333;
+	color: #fff;
+}
+.hello h1 {
+	font-size: 30px;
+}
+.hello p {
+	padding: 10px 0;
+	font-size: 20px;
+	line-height: 26px;
+} 
+.hello a {
+	color: #dd4a38;
+	display: inline;
+}
+.hello a:hover {
+	color: #fff;
+}
+
+
+/* Links
+-------------------------------------------------------------- */
+
+a {
+	color: #222;	
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;  
+	transition: all 0.4s ease;
+}
+a:focus {
+	color: #fff;
+	outline: 0;
+	background: #dd4a38;
+}
+
+
+
+/* Pages
+-------------------------------------------------------------- */
+
+.page p {
+	padding: 0 0 20px;
+	font-size: 18px;
+	line-height: 25px;
+}
+.page ul {
+	list-style-type: square;
+	margin: 0 0 30px 30px;
+	line-height: 25px;
+	font-size: 18px;
+} 
+.page a {
+	color: #dd4a38;
+	border-bottom: 1px solid #ddd;
+}
+.page a:hover {
+	color: #333;
+	border-bottom: 1px solid #333;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+.listing h1,
+.page h1 {
+	margin: 0 0 30px;
+	font-size: 35px;
+	background: #fff;
+	border-bottom: 5px solid #333;
+}
+.page h2 {
+	font-size: 25px;
+	font-weight: bold;
+	margin: 20px 0 5px;
+}
+.page h3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px 0 5px;
+}
+.page h3:before {
+	content: '—';
+	margin: 0 5px 0 0;
+	font-weight: normal;
+}
+
+
+/* Navigation
+-------------------------------------------------------------- */
+
+nav {
+	float: left;
+	margin: 0 0 10px;
+}
+nav ul li {
+	float: left;
+	display: inline;
+	margin: 0 6px 0 0;
+	text-transform: uppercase;
+	position: relative;
+	font-size: 17px;
+}
+nav ul li a {
+	color: #fff;
+	display: inline-block;
+	background: #333;
+	padding: 10px 15px;
+	border-bottom: 5px solid #aaa;
+}
+nav ul li a.active {
+	border-bottom: 5px solid #dd4a38;
+}
+nav ul li a:hover {
+	background: #dd4a38;
+	color: #fff;
+}
+nav ul li:nth-child(4):after {
+	content: '\e006';
+	color: #dd4a38;
+	background: #fff;
+	position: absolute;
+	top: -12px;
+	right: -12px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	font-size: 18px;
+	font-family: 'smart-projects';
+}
+
+
+/* Tables
+-------------------------------------------------------------- */
+
+table {
+	margin: 0 0 30px;
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	clear: both;
+}
+table a {
+	display: block;
+}
+
+
+/* Project Listings
+-------------------------------------------------------------- */
+.listing th {
+	padding: 10px;
+	font-size: 20px;
+	background: #dd4a38;
+	color: #fff;
+	border-right: 5px solid #fff;
+	text-align: left;
+}
+.listing th:last-child {
+	border: none;
+}
+.listing th:nth-child(1) {
+	width: 50%;
+}
+.listing th:nth-child(2) {
+	width: 35%;
+}
+.listing th:nth-child(3) {
+	width: 15%;
+}
+.listing tr {
+	background: #e0e0e0;
+   border-top: 5px solid #fff;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;  
+	transition: all 0.4s ease;
+}
+.listing tr:nth-child(even) {
+	background: #eee;
+}
+.listing tr:hover {
+   background: #bbb;
+}
+.listing td {
+	padding: 10px;
+	border-right: 5px solid #fff;
+}
+.listing td:last-child {
+	border: none;
+}
+
+
+/* Projects Single View
+-------------------------------------------------------------- */
+
+.project section {
+   width: 100%;
+}
+.project header {
+	margin: 0 0 50px;
+}
+.project header a {
+	color: #222;
+}
+.project header h1 {
+	font-size: 40px;
+	color: #444;
+	padding: 7px 10px;
+	color: #fff;
+	font-weight: normal;
+	background: #333;
+}
+.meta li {
+	float: left;
+	font-size: 16px;
+	line-height: 25px;
+	border-top: 5px solid #fff;
+	border-right: 5px solid #fff;
+	color: #222;
+	padding: 5px 10px;
+	background: #ddd;
+	display: inline;
+	width: 50%;
+}
+.meta li:nth-child(even) {
+	border-right: none;
+}
+.project section h1 {
+	font-size: 25px;
+	padding: 7px 10px;
+	color: #fff;
+	background: #dd4a38;
+}
+.project table tr {
+	border-top: 5px solid #fff;
+}
+.project table tr th {
+	padding: 7px 10px;
+	background: #333;
+	color: #fff;
+	width: 25%;
+	text-align: right;
+	border-right: 5px solid #fff;
+}
+.project table tr td {
+	padding: 7px 10px;
+	background: #ddd;
+	font-size: 14px;
+}
+hr {
+	margin: 0 0 50px 0;
+	padding: 20px 0 0;
+	border-bottom: 1px dashed #333;
+}
+
+
+/* Search
+-------------------------------------------------------------- */
+
+form.search input {
+   background-color: #333;
+   width: 100%;
+   padding: 10px;
+   height: 50px;
+   font-family: inherit;
+   font-size: 15px;
+   outline: 0;
+   cursor: pointer;
+   border-radius: 0;
+   -webkit-transition: all 0.3s ease-in;
+   -moz-transition: all 0.3s ease-in;
+   -o-transition: all 0.3s ease-in;  
+   transition: all 0.3s ease-in;
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+}
+form.search input:hover {
+   background-color: #555;
+}
+form.search input:focus {
+   cursor: text;
+   padding: 10px 45px;
+   background-color: #dd4a38;
+   color: #fff;
+}
+form label {
+   display: none;
+}
+.branding form {
+   float: right;
+   margin: 0 0 20px;
+}
+.branding form input {
+   width: 50px;
+   color: #fff;
+   background-image: url(../images/search.png);
+   background-position: 13px 13px;
+}
+.branding form input:focus {
+   width: 300px;
+}
+
+
+/* Footer
+-------------------------------------------------------------- */
+
+footer {
+	float: left;
+	background: #333;
+	width: 100%;
+	color: #ddd;
+	padding: 10px;
+	font-size: 14px;
+	margin: 20px 0 0 0;
+}
+footer a {
+	color: #ddd;
+	border-bottom: none;
+}
+footer a:hover {
+	color: #dd4a38;
+}
+
+
+/* Clearfix 
+-------------------------------------------------------------- */
+.cf:before,
+.cf:after {
+	content: " "; 
+	display: table; 
+}
+.cf:after {
+	clear: both;
+}
+
+
+/* Typo
+-------------------------------------------------------------- */
+em {
+	font-style: italic;
+}
+strong {
+	font-weight: bold;
+}
+
+
+
+/* Retina ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+	
+	.logo {
+		background: url(../images/logo@2x.png);
+		background-size: 400px 100px;
+	}
+	.branding form input {
+		background-image: url(../images/search@2x.png);
+		background-size: 26px 26px;
+	}
+
+}
+
+/* Tablets (Portrait) ----------- */
+
+@media only screen and (max-width : 800px) {
+
+	body {
+		border: 5px solid #333;
+	}
+	.wrapper {
+		padding: 20px;
+	}
+}
+
+
+/* Print styles ----------- */
+
+@media only print {
+
+	* {
+		-webkit-print-color-adjust: exact;
+	}
+	body {
+		border: none;
+	}
+	.wrapper {
+		padding: 100px 20px 0 20px;
+	}
+   .branding form,
+   .subheader,
+	footer {
+		display: none;
+	}
+   .hosting,
+   .socialmedia {
+      padding: 100px 0 0;
+   }
+   hr {
+      margin: 0 0 100px;
+      border: none;
+   }
+	table tr th {
+		font-size: 16px;
+	}
+
+}
+
+
+
+
+

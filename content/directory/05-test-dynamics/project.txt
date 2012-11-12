@@ -1,0 +1,165 @@
+﻿Title: Testing Dynamics
+
+----
+
+Date: 2012-11-01
+
+----
+
+Client: Testing Dynamics Inc.
+
+----
+
+Person: Pete Pattern
+
+----
+
+Client_email: info@testingdynami.cs
+
+----
+
+Client_id: 524385
+
+----
+
+Website: http://testingdynami.cs
+
+----
+
+Cms: Kirby
+
+----
+
+Cms_url: http://testingdynami.cs/panel
+
+----
+
+Cms_login: testingdynamics
+
+----
+
+Cms_password: a_super_tricky_password
+
+----
+
+Stats: Piwik
+
+----
+
+Stats_url: stats.testdynamics.com
+
+----
+
+Stats_login: testingdynamics
+
+----
+
+Stats_password: a_super_tricky_password
+
+----
+
+Webhosting_provider: Mega-Hosting
+
+----
+
+Webhosting_service: PHP 5.4, Mail, x-Traffic
+
+----
+
+Webhosting_domains: testingdynami.cs, testing-dynami.cs
+
+----
+
+Webhosting_admin: http://mega-hosti.ng
+
+----
+
+Webhosting_login: testingdynamics_asd5539
+
+----
+
+Webhosting_password: a_super_tricky_webhosting_password
+
+----
+
+Ftp_server: www.mega-hosti.ng:5864
+
+----
+
+Ftp_login: testingdynamics_asd5539
+
+----
+
+Ftp_password: a_super_tricky_ftp_password
+
+----
+
+Database_url: http://phpmyadmin.mega-hosti.ng
+
+----
+
+Database_login: testingdynamics_asd5539db
+
+----
+
+Database_password: a_super_tricky_db_password
+
+----
+
+Mailbox_url: http://web-mailer.mega-hosti.ng
+
+----
+
+Mailbox_login: testingdynamics_asd5539px3
+
+----
+
+Mailbox_password: a_super_tricky_mb_password
+
+----
+
+Network1: Facebook
+
+----
+
+Network1_url: https://www.facebook.com/testdynamics.com
+
+----
+
+Network1_login: testdynamics_login
+
+----
+
+Network1_password: a_super_tricky_network_password
+
+----
+
+Network2: Twitter
+
+----
+
+Network2_url: https://twitter.com/testdynamics
+
+----
+
+Network2_login: testdynamics_login
+
+----
+
+Network2_password: a_super_tricky_network_password
+
+----
+
+Network3: YouTube
+
+----
+
+Network3_url: http://www.youtube.com/user/testdynamics2012
+
+----
+
+Network3_login: testdynamics_login
+
+----
+
+Network3_password: a_super_tricky_network_password

@@ -1,0 +1,17 @@
+Title: Smart Projects
+----
+Description: A Kirby based project directory to manage your data.
+----
+Hello: 
+
+#Hey Dude!
+
+This is the dashboard of your project directory. And these could be your latest projects. Still don't get it? Check out the (link: /docs text: docs) and learn more!
+----
+Copyright: © (link: http://sashtown.de text: Sascha Lack) • Based on (link: http://getkirby.com text: Kirby) • (link: https://flattr.com/profile/sashtown text: Flattr) • (link: http://creativecommons.org/licenses/by-sa/3.0/ text: CC BY-SA)
+----
+Company: My Company Inc.
+----
+Email: mail@my-compa.ny
+----
+Phone: 0123 / 456 789

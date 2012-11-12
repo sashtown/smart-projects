@@ -1,0 +1,165 @@
+﻿Title: XYZ Merchandising
+
+----
+
+Date: 2012-11-02
+
+----
+
+Client: Honk Design Agency
+
+----
+
+Person: Dirk Dollar
+
+----
+
+Client_email: info@honkdesignagency.net
+
+----
+
+Client_id: 857325
+
+----
+
+Website: http://xyz-merchandising.com
+
+----
+
+Cms: Wordpress
+
+----
+
+Cms_url: http://xyz-merchandising.com/wp-admin
+
+----
+
+Cms_login: xyz-merchandising
+
+----
+
+Cms_password: a_super_tricky_password
+
+----
+
+Stats: Google Analytics
+
+----
+
+Stats_url: http://www.google.com/analytics/
+
+----
+
+Stats_login: xyz-merchandising
+
+----
+
+Stats_password: a_super_tricky_password
+
+----
+
+Webhosting_provider: Hosteurope
+
+----
+
+Webhosting_service: PHP 5.4, Mail, x-Traffic, DB
+
+----
+
+Webhosting_domains: xyz-merchandising.com, xyzmerchandising.com, xyz-merchandising.net
+
+----
+
+Webhosting_admin: http://www.hosteurope.com/
+
+----
+
+Webhosting_login: xyz-merchandising
+
+----
+
+Webhosting_password: a_super_tricky_webhosting_password
+
+----
+
+Ftp_server: www.xyz-merchandising.com
+
+----
+
+Ftp_login: login_xyz
+
+----
+
+Ftp_password: a_super_tricky_ftp_password
+
+----
+
+Database_url: http://phpmyadmin.login_xyx.org/
+
+----
+
+Database_login: login_xyz
+
+----
+
+Database_password: a_super_tricky_db_password
+
+----
+
+Mailbox_url: http://www.hosteurope.com/
+
+----
+
+Mailbox_login: login_xyz
+
+----
+
+Mailbox_password: a_super_tricky_mb_password
+
+----
+
+Network1: Facebook
+
+----
+
+Network1_url: https://www.facebook.com/xyz-merchandising
+
+----
+
+Network1_login: xyz-merchandising
+
+----
+
+Network1_password: a_super_tricky_network_password
+
+----
+
+Network2: 
+
+----
+
+Network2_url: 
+
+----
+
+Network2_login: 
+
+----
+
+Network2_password: 
+
+----
+
+Network3: 
+
+----
+
+Network3_url: 
+
+----
+
+Network3_login: 
+
+----
+
+Network3_password: 

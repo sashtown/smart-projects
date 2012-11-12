@@ -1,0 +1,165 @@
+﻿Title: Car Center Luxury
+
+----
+
+Date: 2012-11-12
+
+----
+
+Client: Honk Design Agency
+
+----
+
+Person: Dirk Dollar
+
+----
+
+Client_email: info@honkdesignagency.net
+
+----
+
+Client_id: 857325
+
+----
+
+Website: http://join.car-cent.er
+
+----
+
+Cms: Kirby
+
+----
+
+Cms_url: http://join.car-cent.er/panel
+
+----
+
+Cms_login: car_center_luxury
+
+----
+
+Cms_password: a_super_tricky_password
+
+----
+
+Stats: Piwik
+
+----
+
+Stats_url: http://join.car-cent.er/stats
+
+----
+
+Stats_login: car_center_luxury
+
+----
+
+Stats_password: a_super_tricky_password
+
+----
+
+Webhosting_provider: REAL Monsterhosting
+
+----
+
+Webhosting_service: PHP, X-Mail, X-Traffic, DB
+
+----
+
+Webhosting_domains: car-cent.er, carcent.er
+
+----
+
+Webhosting_admin: http://real-monsterhosti.ng
+
+----
+
+Webhosting_login: monster2335hdf76
+
+----
+
+Webhosting_password: a_super_tricky_webhosting_password
+
+----
+
+Ftp_server: www.car-cent.er
+
+----
+
+Ftp_login: monster2335hdf76
+
+----
+
+Ftp_password: a_super_tricky_ftp_password
+
+----
+
+Database_url: http://phpmyadmin.monster2335hdf76
+
+----
+
+Database_login: monster2335hdf76
+
+----
+
+Database_password: a_super_tricky_db_password
+
+----
+
+Mailbox_url: http://webmailer.monster2335hdf76
+
+----
+
+Mailbox_login: monster2335hdf76p1
+
+----
+
+Mailbox_password: a_super_tricky_mb_password
+
+----
+
+Network1: Facebook
+
+----
+
+Network1_url: https://www.facebook.com/CarCenterLuxury
+
+----
+
+Network1_login: fb@carcent.er
+
+----
+
+Network1_password: a_super_tricky_network_password
+
+----
+
+Network2: 
+
+----
+
+Network2_url: 
+
+----
+
+Network2_login: 
+
+----
+
+Network2_password: 
+
+----
+
+Network3: 
+
+----
+
+Network3_url: 
+
+----
+
+Network3_login: 
+
+----
+
+Network3_password: 

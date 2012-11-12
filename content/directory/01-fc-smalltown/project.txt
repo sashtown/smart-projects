@@ -1,0 +1,165 @@
+﻿Title: FC Smalltown
+
+----
+
+Date: 2012-11-12
+
+----
+
+Client: FC Smalltown 1902
+
+----
+
+Person: Uncle Joe
+
+----
+
+Client_email: unclejoe1955@supermail.com
+
+----
+
+Client_id: private
+
+----
+
+Website: http://fcsmalltown.co.uk
+
+----
+
+Cms: Wordpress
+
+----
+
+Cms_url: http://fcsmalltown.co.uk/wp-admin
+
+----
+
+Cms_login: fcsmalltown
+
+----
+
+Cms_password: a_super_tricky_password
+
+----
+
+Stats: Piwik
+
+----
+
+Stats_url: http://stats.fcsmalltown.co.uk
+
+----
+
+Stats_login: fcsmalltown
+
+----
+
+Stats_password: a_super_tricky_password
+
+----
+
+Webhosting_provider: Superdomain GmbH
+
+----
+
+Webhosting_service: XXL Package
+
+----
+
+Webhosting_domains: fcsmalltown.co.uk
+
+----
+
+Webhosting_admin: http://admin.superdomains.io
+
+----
+
+Webhosting_login: superdomain348273423
+
+----
+
+Webhosting_password: a_super_tricky_webhosting_password
+
+----
+
+Ftp_server: www.admin.superdomains.io
+
+----
+
+Ftp_login: superdomain348273423
+
+----
+
+Ftp_password: a_super_tricky_ftp_password
+
+----
+
+Database_url: http://phpmyadmin.superdomains.io
+
+----
+
+Database_login: superdomain348273423
+
+----
+
+Database_password: a_super_tricky_db_password
+
+----
+
+Mailbox_url: 
+
+----
+
+Mailbox_login: 
+
+----
+
+Mailbox_password: 
+
+----
+
+Network1: 
+
+----
+
+Network1_url: 
+
+----
+
+Network1_login: 
+
+----
+
+Network1_password: 
+
+----
+
+Network2: 
+
+----
+
+Network2_url: 
+
+----
+
+Network2_login: 
+
+----
+
+Network2_password: 
+
+----
+
+Network3: 
+
+----
+
+Network3_url: 
+
+----
+
+Network3_login: 
+
+----
+
+Network3_password: 

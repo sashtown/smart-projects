@@ -1,0 +1,165 @@
+﻿Title: Smith Cosmetics
+
+----
+
+Date: 2012-11-07
+
+----
+
+Client: Lisa
+
+----
+
+Person: Lisa Smith
+
+----
+
+Client_email: lisasmith1980xyz@funmailer.net
+
+----
+
+Client_id: private
+
+----
+
+Website: http://smith-cosmeti.cs
+
+----
+
+Cms: Kirby
+
+----
+
+Cms_url: http://smith-cosmeti.cs/panel
+
+----
+
+Cms_login: smith-cosmetics
+
+----
+
+Cms_password: a_super_tricky_password
+
+----
+
+Stats: Google Analytics
+
+----
+
+Stats_url: http://www.google.com/analytics/
+
+----
+
+Stats_login: smithcosmetics
+
+----
+
+Stats_password: a_super_tricky_password
+
+----
+
+Webhosting_provider: Enterprise Hosting GmbH
+
+----
+
+Webhosting_service: PHP, X-Mail, X-Traffic
+
+----
+
+Webhosting_domains: smith-cosmeti.cs, smithcosmeti.cs
+
+----
+
+Webhosting_admin: http://www.enterprise-webhosting-gmbh.com
+
+----
+
+Webhosting_login: ewh34545_smith
+
+----
+
+Webhosting_password: a_super_tricky_webhosting_password
+
+----
+
+Ftp_server: www.smithcosmeti.cs
+
+----
+
+Ftp_login: ewh34545_smith
+
+----
+
+Ftp_password: a_super_tricky_ftp_password
+
+----
+
+Database_url: 
+
+----
+
+Database_login: 
+
+----
+
+Database_password: 
+
+----
+
+Mailbox_url: 
+
+----
+
+Mailbox_login: 
+
+----
+
+Mailbox_password: 
+
+----
+
+Network1: Twitter
+
+----
+
+Network1_url: http://twitte.com/smith_cosmetix
+
+----
+
+Network1_login: smith_cosmetix
+
+----
+
+Network1_password: a_super_tricky_network_password
+
+----
+
+Network2: 
+
+----
+
+Network2_url: 
+
+----
+
+Network2_login: 
+
+----
+
+Network2_password: 
+
+----
+
+Network3: 
+
+----
+
+Network3_url: 
+
+----
+
+Network3_login: 
+
+----
+
+Network3_password: 
