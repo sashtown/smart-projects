@@ -9,9 +9,9 @@ Header Snippet - Smart Projects Kirby Theme
    <meta charset="utf-8" />
 
    <?php if($page->isHomepage()): ?>
-   <title>Directory | <?php echo html($site->title()) ?></title>
+   <title>Dashboard | <?php echo html($site->title()) ?></title>
    <?php else: ?>
-   <title><?php echo html($page->title()) ?></title>
+   <title><?php echo html($page->title()) ?> | <?php echo html($site->title()) ?></title>
    <?php endif ?>
 
    <?php if($page->description() != ''): ?>
