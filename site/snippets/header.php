@@ -20,9 +20,6 @@ Header Snippet - Smart Projects Kirby Theme
    <meta name="description" content="<?php echo html($site->description()) ?>" />
    <?php endif ?>
 
-   <meta name="robots" content="index, follow" />
-
-   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
    <link rel="shortcut icon" href="<?php echo url('assets/images/favicon.png') ?>" type="image/png" />
    <link rel="apple-touch-icon" href="<?php echo url('assets/images/apple-touch-icon.png') ?>" />
