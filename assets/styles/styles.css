@@ -64,6 +64,7 @@ body {
 	margin: 0 auto;
 	max-width: 900px;
 	padding: 50px;
+	min-width: 700px;
 }
 .content {
    margin: 50px 0 0;
@@ -475,17 +476,6 @@ strong {
 
 }
 
-/* Tablets (Portrait) ----------- */
-
-@media only screen and (max-width : 800px) {
-
-	body {
-		border: 5px solid #333;
-	}
-	.wrapper {
-		padding: 20px;
-	}
-}
 
 
 /* Print styles ----------- */
