@@ -22,9 +22,9 @@
                </tr>
             </thead>
             <tbody>
-               <? $projects = $pages->find('directory')->children()->visible()->sortBy('title')
+               <?php $projects = $pages->find('directory')->children()->visible()->sortBy('title')
                                     ->filterBy('client_id', '!=', 'private') ?>
-               <? foreach($projects as $project): ?>
+               <?php foreach($projects as $project): ?>
                <tr>
                   <td><a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a></td>
                   <td><?php echo $project->client() ?></td>

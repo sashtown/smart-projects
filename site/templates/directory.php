@@ -22,8 +22,8 @@
    				</tr>
    			</thead>
    			<tbody>
-   				<? $projects = $pages->find('directory')->children()->visible()->sortBy('date', 'desc')->limit(5) ?>
-   				<? foreach($projects as $project): ?>
+   				<?php $projects = $pages->find('directory')->children()->visible()->sortBy('date', 'desc')->limit(5) ?>
+   				<?php foreach($projects as $project): ?>
    				<tr>
    					<td><a href="<?php echo $project->url() ?>"><?php echo $project->title() ?></a></td>
    					<td><?php echo $project->client() ?></td>
