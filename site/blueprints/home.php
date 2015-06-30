@@ -4,8 +4,7 @@
 
 title: Directory
 pages: 
-   template:
-      -project
+   template: project
 files: false
 
 fields:
