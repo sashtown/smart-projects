@@ -6,7 +6,7 @@
 
          <div class="count">
             Current number of private projects: 
-            <strong><?php echo $pages->find('directory')->children()->visible()->filterBy('client_id', '*=', 'private')->count() ?></strong>
+            <strong><?php echo page('directory')->children()->visible()->filterBy('client_id', '*=', 'private')->count() ?></strong>
          </div>
 
       </header>
@@ -22,7 +22,7 @@
                </tr>
             </thead>
             <tbody>
-               <?php $projects = $pages->find('directory')->children()->visible()->sortBy('title')
+               <?php $projects = page('directory')->children()->visible()->sortBy('title')
                                     ->filterBy('client_id', '*=', 'private') ?>
                <?php foreach($projects as $project): ?>
                <tr>

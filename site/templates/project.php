@@ -6,10 +6,10 @@
 
          <div class="count">
          <?php if($page->client_id() == 'private'): ?>
-         Current number of private projects: <strong><?php echo $pages->find('directory')->children()->visible()->filterBy('client_id', '*=', 'private')->count() ?></strong>
+         Current number of private projects: <strong><?php echo page('directory')->children()->visible()->filterBy('client_id', '*=', 'private')->count() ?></strong>
          <?php else: ?>
          Current number of client projects: 
-         <strong><?php echo $pages->find('directory')->children()->visible()->filterBy('client_id', '!=', 'private')->count() ?></strong>
+         <strong><?php echo page('directory')->children()->visible()->filterBy('client_id', '!=', 'private')->count() ?></strong>
          <?php endif ?>
          </div>
 

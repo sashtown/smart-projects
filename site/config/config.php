@@ -21,8 +21,18 @@ http://getkirby.com/license
 
 */
 
-c::set('license', 'key');  
+c::set('license', 'key'); 
 
+
+/* 
+
+---------------------------------------
+Debbuging
+---------------------------------------
+
+*/
+
+c::set('debug', true);
 
 /* 
 

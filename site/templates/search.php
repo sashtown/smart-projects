@@ -18,7 +18,7 @@
 
          <?php snippet('menu') ?>   
    		
-         <div class="count">Current number of entire projects: <strong><?php echo $pages->find('directory')->children()->visible()->count() ?></strong></div>
+         <div class="count">Current number of entire projects: <strong><?php echo page('directory')->children()->visible()->count() ?></strong></div>
 
    	</header>
    	 
